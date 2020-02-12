@@ -1,0 +1,58 @@
+CSC 224 - Program # 3
+Credit Card Account Summary for: Alec Barker
+
+	  Date    Description                       Amount      Balance
+	--------  ------------------------------  ----------  ----------
+	          Beginning Balance . . . . . . . . . . . . . $     0.00
+	10/22/21  Groceries                            20.00       20.00
+	10/24/21  Gasoline - Pay at Pump               10.00       30.00
+	10/24/21  Video Game                           15.00       45.00
+	10/26/21  Clothing                             40.00       85.00
+	10/28/21  Payment                            -200.00     -115.00
+	10/28/21  Groceries                            20.00      -95.00
+	10/29/21  Video Game                           15.00      -80.00
+	10/29/21  Groceries                            20.00      -60.00
+	10/30/21  Clothing                             40.00      -20.00
+	11/01/21  Gasoline - Pay at Pump               10.00      -10.00
+	11/01/21  Video Game                           15.00        5.00
+	11/01/21  Groceries                            20.00       25.00
+	11/01/21  Clothing                             40.00       65.00
+	11/21/21  Clothing                             40.00      105.00
+	11/21/21  Video Game                           15.00      120.00
+	11/04/21  Groceries                            20.00      140.00
+	11/06/21  Gasoline - Pay at Pump               10.00      150.00
+	11/06/21  Payment                            -110.00       40.00
+	11/09/21  Shoes                                29.95       69.95
+	11/14/21  Clothing                             40.00      109.95
+	11/15/21  Video Game                           15.00      124.95
+	11/15/21  Groceries                            20.00      144.95
+	11/17/21  Gasoline - Pay at Pump               10.00      154.95
+	11/23/21  Video Game                           15.00      169.95
+	11/23/21  Groceries                            20.00      189.95
+	11/25/21  Gasoline - Pay at Pump               10.00      199.95
+	11/26/21  Payment                            -140.00       59.95
+	12/05/21  Shoes                                29.95       89.90
+	12/15/21  Clothing                             40.00      129.90
+	12/15/21  Gasoline - Pay at Pump               10.00      139.90
+	12/17/21  Video Game                           15.00      154.90
+	12/21/21  Payment                             -50.00      104.90
+	12/27/21  Groceries                            20.00      124.90
+	12/28/21  Video Game                           15.00      139.90
+	12/28/21  Shoes                                29.95      169.85
+	12/30/21  Video Game                           15.00      184.85
+	--------  ------------------------------  ----------  ----------
+Total Purchases from each vendor:             Total Payments:     500.00
+
+	Vendor #  Amount Purchased
+	--------  ----------------
+	       1            135.00
+	       2             20.00
+	       5            200.00
+	       7             10.00
+	      11             89.85
+	      14            100.00
+	      15             40.00
+	      16             60.00
+	      19             30.00
+
+	   Total            684.85

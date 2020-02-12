@@ -1,0 +1,28 @@
+CSC 224 - Program # 3
+Credit Card Account Summary for: Alec Barker
+
+	  Date    Description                       Amount      Balance
+	--------  ------------------------------  ----------  ----------
+	          Beginning Balance . . . . . . . . . . . . . $     0.00
+	01/15/20  Antique Armoire                     734.50      734.50
+	01/15/20  Loudest Music on the Planet          95.90      830.40
+	01/16/20  Textbooks for Spring Semester      2000.00     2830.40
+	01/18/20  Hunting or Fishing Supplies          92.17     2922.57
+	01/21/20  Payment                            -500.00     2422.57
+	01/27/20  Chips, Dip, Catsup & Root Beer       49.97     2472.54
+	01/28/20  Notebook Paper                       17.75     2490.29
+	01/28/20  Night Crawlers                        2.75     2493.04
+	01/31/20  More Outrageously Loud Music         67.00     2560.04
+	02/10/20  Payment                            -100.00     2460.04
+	--------  ------------------------------  ----------  ----------
+Total Purchases from each vendor:             Total Payments:     600.00
+
+	Vendor #  Amount Purchased
+	--------  ----------------
+	       0             94.92
+	       1           2017.75
+	       2            162.90
+	       4             49.97
+	       6            734.50
+
+	   Total           3060.04

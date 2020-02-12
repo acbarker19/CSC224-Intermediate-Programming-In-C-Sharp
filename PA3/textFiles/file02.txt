@@ -1,0 +1,36 @@
+10/22/21Groceries                          20.0016
+10/24/21Gasoline - Pay at Pump             10.00 2
+10/24/21Video Game                         15.00 1
+10/26/21Clothing                           40.00 5
+10/28/21Payment                          -200.00xx
+10/28/21Groceries                          20.0014
+10/29/21Video Game                         15.00 1
+10/29/21Groceries                          20.0014
+10/30/21Clothing                           40.00 5
+11/01/21Gasoline - Pay at Pump             10.0019
+11/01/21Video Game                         15.00 1
+11/01/21Groceries                          20.0016
+11/01/21Clothing                           40.00 5
+11/21/21Clothing                           40.0015
+11/21/21Video Game                         15.00 1
+11/04/21Groceries                          20.0014
+11/06/21Gasoline - Pay at Pump             10.0019
+11/06/21Payment                          -110.00xx
+11/09/21Shoes                              29.9511
+11/14/21Clothing                           40.00 5
+11/15/21Video Game                         15.00 1
+11/15/21Groceries                          20.0014
+11/17/21Gasoline - Pay at Pump             10.00 2
+11/23/21Video Game                         15.00 1
+11/23/21Groceries                          20.0014
+11/25/21Gasoline - Pay at Pump             10.00 7
+11/26/21Payment                          -140.00xx
+12/05/21Shoes                              29.9511
+12/15/21Clothing                           40.00 5
+12/15/21Gasoline - Pay at Pump             10.0019
+12/17/21Video Game                         15.00 1
+12/21/21Payment                           -50.00xx
+12/27/21Groceries                          20.0016
+12/28/21Video Game                         15.00 1
+12/28/21Shoes                              29.9511
+12/30/21Video Game                         15.00 1
