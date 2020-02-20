@@ -18,23 +18,21 @@ namespace ListOfObjects
 
         public void DisplayVehicles()
         {
+            int lineNum = 0;
 
+            lbxOutput.Items.Clear();
+            CLEAR DOES NOT WORK
+
+            foreach (Vehicle vehicle in vehicles)
+            {
+                lineNum++;
+                lbxOutput.Items.Add("Car #" + lineNum + ": " + vehicle.GetDisplayText());
+            }
         }
 
         public Form1()
         {
             InitializeComponent();
-        }
-
-        public void DisplayVehicles()
-        {
-            int lineNum = 0;
-
-            foreach (Vehicle vehicle in vehicles)
-            {
-                lineNum++;
-                txtOutputArea.Text += "Car #" + lineNum + ": " + vehicle.GetDisplayText() + "\r\n";
-            }
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
@@ -73,7 +71,6 @@ namespace ListOfObjects
                         vehicles.Add(currentCar);
                     }
 
-                    txtOutputArea.Text = "Contents of vehicle list after reading input file:\r\n";
                     DisplayVehicles();
                 }
                 catch (Exception ex)
@@ -94,7 +91,59 @@ namespace ListOfObjects
             addVehicleForm.FormBorderStyle = FormBorderStyle.FixedDialog;
             addVehicleForm.ControlBox = false;
             addVehicleForm.MaximizeBox = false;
-            addVehicleForm.ShowDialog();
+            DialogResult resultFromAddForm = addVehicleForm.ShowDialog();
+
+            if (resultFromAddForm == DialogResult.OK && addVehicleForm.Tag != null)
+            {
+                Vehicle vehicle = (Vehicle)addVehicleForm.Tag;
+                vehicles.Add(vehicle);
+                DisplayVehicles();
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int i = lbxOutput.SelectedIndex;
+            if (i != -1)
+            {
+                Vehicle vehicle = vehicles[i];
+                string message = "Are you sure you want to delete " + vehicle.Year + " " + vehicle.Make + " " + vehicle.Model + "?";
+                DialogResult button = MessageBox.Show(message, "Confirm Delete", MessageBoxButtons.YesNo);
+                if (button == DialogResult.Yes)
+                {
+                    vehicles.Remove(vehicle);
+                    DisplayVehicles();
+                }
+            }
+        }
+
+        private void btnSaveFile_Click(object sender, EventArgs e)
+        {
+            FileStream fs = null;
+
+            try
+            {
+                string fileName = txtInputFileName.Text;
+                fs = new FileStream(fileName, FileMode.Create, FileAccess.Write);
+                StreamWriter sw = new StreamWriter(fs);
+
+                foreach (Vehicle vehicle in vehicles)
+                {
+                    sw.WriteLine(vehicle.Make + ", " + vehicle.Model + ", " + vehicle.Year + ", " + vehicle.Miles + ", " + vehicle.Price);
+                }
+
+                sw.Flush();
+                MessageBox.Show("File " + fileName + " was written to disk.", "Save File Success");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "File Write Error");
+            }
+            finally
+            {
+                if (fs != null)
+                    fs.Close();
+            }
         }
     }
 }

@@ -18,23 +18,20 @@ namespace ListOfObjects
 
         public void DisplayVehicles()
         {
-
-        }
-
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
-        public void DisplayVehicles()
-        {
             int lineNum = 0;
+
+            txtOutputArea.Text = "";
 
             foreach (Vehicle vehicle in vehicles)
             {
                 lineNum++;
                 txtOutputArea.Text += "Car #" + lineNum + ": " + vehicle.GetDisplayText() + "\r\n";
             }
+        }
+
+        public Form1()
+        {
+            InitializeComponent();
         }
 
         private void btnBrowse_Click(object sender, EventArgs e)
@@ -73,7 +70,6 @@ namespace ListOfObjects
                         vehicles.Add(currentCar);
                     }
 
-                    txtOutputArea.Text = "Contents of vehicle list after reading input file:\r\n";
                     DisplayVehicles();
                 }
                 catch (Exception ex)
@@ -94,7 +90,14 @@ namespace ListOfObjects
             addVehicleForm.FormBorderStyle = FormBorderStyle.FixedDialog;
             addVehicleForm.ControlBox = false;
             addVehicleForm.MaximizeBox = false;
-            addVehicleForm.ShowDialog();
+            DialogResult resultFromAddForm = addVehicleForm.ShowDialog();
+
+            if (resultFromAddForm == DialogResult.OK && addVehicleForm.Tag != null)
+            {
+                Vehicle vehicle = (Vehicle)addVehicleForm.Tag;
+                vehicles.Add(vehicle);
+                DisplayVehicles();
+            }
         }
     }
 }

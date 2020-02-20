@@ -1,0 +1,30 @@
+PA;Schlafnoodle, Billy Joe;20.00
+PA;Murray Hopper, Billy Joe;20.00
+PA;Johnsonbaugh, Jean-Luc;20.00
+OH;Schlafnoodle, Mary Louise;15.00
+OH;Puma, Mary Louise;15.00
+OH;Puma, Billy Joe;15.00
+OH;Murray Hopper, Mary Louise;15.00
+OH;Jones, Fritz;15.00
+OH;Johnsonbaugh, Billy Joe;15.00
+OH;Schlafnoodle, Grace;15.00
+OH;Johnsonbaugh, Mary Louise;15.00
+NY;Goddard, Jean-Luc;1.00
+NY;Goddard, Fritz;2.00
+NY;Puma, Grace;3.00
+NY;Johnsonbaugh, Grace;4.00
+NJ;Goddard, Billy Joe;5.00
+NJ;Puma, Fritz;6.00
+NJ;Goddard, Mary Louise;7.00
+CT;Schlafnoodle, Jean-Luc;111.11
+CT;Jones, Mary Louise;222.22
+CT;Jones, Jean-Luc;333.33
+CT;Goddard, Grace;444.44
+CT;Schlafnoodle, Fritz;555.55
+CO;Puma, Jean-Luc;800.00
+CO;Johnsonbaugh, Fritz;800.00
+CO;Murray Hopper, Jean-Luc;800.00
+CO;Jones, Grace;800.00
+CA;Murray Hopper, Grace;25000.00
+CA;Murray Hopper, Fritz;25000.00
+CA;Jones, Billy Joe;25000.00

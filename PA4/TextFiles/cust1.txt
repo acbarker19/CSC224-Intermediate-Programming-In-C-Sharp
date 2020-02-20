@@ -1,0 +1,8 @@
+CA;St. Jean, Gary;345.67
+GA;Thornberry, Billy Bob;100.00
+GA;van Nostrand, Hans;200.00
+GA;Smith, Fritz;300.00
+GA;Anderson-Jones, Portia;100.00
+OH;What-army, Ewan;50.00
+OH;da Mann, Hugh;50.50
+OH;Girll, Hugo;50.00

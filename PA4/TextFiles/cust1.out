@@ -1,0 +1,25 @@
+CSC 224 - Program # 4
+Written by: Alec Barker
+
+Customers from CA:
+	Gary St. Jean (balance due = $345.67)
+
+	Number of customers from CA: 1  (total due from CA customers: $345.67)
+
+Customers from GA:
+	Billy Bob Thornberry (balance due = $100.00)
+	Hans van Nostrand (balance due = $200.00)
+	Fritz Smith (balance due = $300.00)
+	Portia Anderson-Jones (balance due = $100.00)
+
+	Number of customers from GA: 4  (total due from GA customers: $700.00)
+
+Customers from OH:
+	Ewan What-army (balance due = $50.00)
+	Hugh da Mann (balance due = $50.50)
+	Hugo Girll (balance due = $50.00)
+
+	Number of customers from OH: 3  (total due from OH customers: $150.50)
+
+Total Customers from all states: 8
+	Total Due from ALL customers: $1,196.17

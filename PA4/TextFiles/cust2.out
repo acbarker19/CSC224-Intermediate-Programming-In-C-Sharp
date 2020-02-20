@@ -1,0 +1,63 @@
+CSC 224 - Program # 4
+Written by: Alec Barker
+
+Customers from PA:
+	Billy Joe Schlafnoodle (balance due = $20.00)
+	Billy Joe Murray Hopper (balance due = $20.00)
+	Jean-Luc Johnsonbaugh (balance due = $20.00)
+
+	Number of customers from PA: 3  (total due from PA customers: $60.00)
+
+Customers from OH:
+	Mary Louise Schlafnoodle (balance due = $15.00)
+	Mary Louise Puma (balance due = $15.00)
+	Billy Joe Puma (balance due = $15.00)
+	Mary Louise Murray Hopper (balance due = $15.00)
+	Fritz Jones (balance due = $15.00)
+	Billy Joe Johnsonbaugh (balance due = $15.00)
+	Grace Schlafnoodle (balance due = $15.00)
+	Mary Louise Johnsonbaugh (balance due = $15.00)
+
+	Number of customers from OH: 8  (total due from OH customers: $120.00)
+
+Customers from NY:
+	Jean-Luc Goddard (balance due = $1.00)
+	Fritz Goddard (balance due = $2.00)
+	Grace Puma (balance due = $3.00)
+	Grace Johnsonbaugh (balance due = $4.00)
+
+	Number of customers from NY: 4  (total due from NY customers: $10.00)
+
+Customers from NJ:
+	Billy Joe Goddard (balance due = $5.00)
+	Fritz Puma (balance due = $6.00)
+	Mary Louise Goddard (balance due = $7.00)
+
+	Number of customers from NJ: 3  (total due from NJ customers: $18.00)
+
+Customers from CT:
+	Jean-Luc Schlafnoodle (balance due = $111.11)
+	Mary Louise Jones (balance due = $222.22)
+	Jean-Luc Jones (balance due = $333.33)
+	Grace Goddard (balance due = $444.44)
+	Fritz Schlafnoodle (balance due = $555.55)
+
+	Number of customers from CT: 5  (total due from CT customers: $1,666.65)
+
+Customers from CO:
+	Jean-Luc Puma (balance due = $800.00)
+	Fritz Johnsonbaugh (balance due = $800.00)
+	Jean-Luc Murray Hopper (balance due = $800.00)
+	Grace Jones (balance due = $800.00)
+
+	Number of customers from CO: 4  (total due from CO customers: $3,200.00)
+
+Customers from CA:
+	Grace Murray Hopper (balance due = $25,000.00)
+	Fritz Murray Hopper (balance due = $25,000.00)
+	Billy Joe Jones (balance due = $25,000.00)
+
+	Number of customers from CA: 3  (total due from CA customers: $75,000.00)
+
+Total Customers from all states: 30
+	Total Due from ALL customers: $80,074.65
