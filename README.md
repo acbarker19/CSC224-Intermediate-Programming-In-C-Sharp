@@ -13,3 +13,10 @@ It contains projects that do the following:
 - lab03/InvoiceTotal: Calculated discounts based on amount of money the user enters and the type of customer
 - lab04/FutureValue: Similar to lab03/FutureValue but clears the Future Value field when the user begins typing in any text field
 - lab04/InvoiceTotal: Similar to lab01/InvoiceTotal but uses a try/catch block and displays a MessageBox in case of an error
+- lab05: Allows the user to browse for a file, reads the file, and displays an edited version of the text in a TextBox
+- lab06/DateHandling: Uses DateTimes to determine the number of days between days entered by the user and the current date
+- lab06/lab06: Users can select arrival and departure dates with DateTimePickers, and the program will calculate the price for staying at the hotel for that number of days
+- lab07/ListOfObjects: Users can browse for a file, the text from the file is read and converted to Vehicle objects, and information about each Vehicle is displayed in a TextBox. A framework was also created for adding new Vehicles
+- PA1/IRA Calculator: Users can enter name, age, planned retirement age, a fixed annual investment, and an interest rate, and the program will calculate how much money they will have saved for retirement
+- PA2: Users enter the number of sales for each month in a year, and the program will display a graph with a * for every sale in a month
+- PA3: User specify a file with data for credit card charges, the program neatly organizes the raw data, and a file is output with the organized data
